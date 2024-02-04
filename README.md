@@ -9,16 +9,16 @@ The offical [Flashing Tutorial for Full ROOT Version](https://global.letianpai.c
 
 In this step the standard firmware (ROM) is exchanged (flashed) with a new firmware that allows full access to the system.
 
-###Download flashing tools and system image
+### Download flashing tools and system image
 Download and unzip the three files *RKDevTool_Release_v2.95.zip*, *update.img.zip* and *驱动包-DriverAssitant_v5.1.1.zip* via the download links in the [Flashing Tutorial for Full ROOT Version](https://global.letianpai.com/all/?p=1680&v=8528837ceeea).
 
 
-###Install (ADB?) Driver
+### Install (ADB?) Driver
 Go to the *DriverAssitant_v5.1.1* directory and start the program *DriverInstall.exe* . Click 'Install Driver' and wait for the installation to finish. Then click 'OK' and close the Driver Assistant.
 
 <img src="flashing/tutorial_screenshorts/install_driver.png" alt="screenshot of the driver assistant program" width="90%" height="90%">
 
-###Install Firmware
+### Install Firmware
 Go to the *RKDevTool_Release_v2.95* directory and start the program *RKDevTool.exe*. This program is in Chinese regardless of your system language (left side). I translated it with Google Images to see what's happening (right side).
 
 Go to "Upgrade Firmware" tab.
