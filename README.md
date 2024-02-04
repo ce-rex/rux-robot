@@ -45,6 +45,7 @@ Wait for the display on the right to show that the RockUSB switch is successful.
 Wait for a few seconds, and the word “Found a LOADER device” will appear at the bottom of the window.
 
 Click "Upgrade" to  start flashing the device.
+
 :bangbang: Be careful not to touch the device and USB cable at this time, and maintain a stable connection state (otherwise it may cause interruption of flashing)
 
 <img src="flashing/tutorial_screenshorts/install_firmware5_ch.png" alt="flashing firmware 5 chinese" width="50%"><img src="flashing/tutorial_screenshorts/install_firmware5_en.png" alt="lashing firmware 5 english translation" width="50%">
