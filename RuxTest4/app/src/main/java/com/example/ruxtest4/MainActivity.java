@@ -82,11 +82,11 @@ public class MainActivity extends AppCompatActivity {
             mRobotService.robotPlayTTs("Hello, I'm Rux. How are you?");
 
             mRobotService.robotOpenMotor();  //makes a very high noise
-            mRobotService.robotCloseMotor();  //light only blinks for a split second
+            //mRobotService.robotCloseMotor();  //light only blinks for a split second
             AntennaLightMessage alMessage = new AntennaLightMessage();
             alMessage.set(Light.RED);
             mRobotService.robotAntennaLight(alMessage);
-            //mRobotService.robotCloseMotor();  //light only blinks for a split second
+            mRobotService.robotCloseMotor();  //light only blinks for a split second
 
             mRobotService.robotStartExpression("h0003");
 
@@ -128,9 +128,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void switchLedsToBlue(){
         ////2, step 2
-        // Convert text to speech and play it
         mRobotService.robotOpenMotor();
-
 
         AntennaLightMessage alMessage = new AntennaLightMessage();
         alMessage.set(Light.BLUE);
