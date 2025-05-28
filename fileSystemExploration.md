@@ -102,10 +102,30 @@ apktool decode my_app.apk -o my_app_apktool
 
 ## Linux
 
+:bangbang: THE LINUX SYSTEM IS NOT ABLE TO CONNECT TO WIFI NETWORKS!!
+
 | System Property | Value |
 | --- | --- |
-| Screen Size |  |
-| Storage Space |  |
+| Screen Size | minimum 320 x 200, current 480 x 480, maximum 8192 x 8192|
+| Storage Space | 3.3Gb (total), 2.8Gb (free), 3.0Gb (available) | (command: free -h)
+
+
+Python2 version 2.7.16 (Default)
+Python3 version 3.7.3
+
+pip and pip3 are not installed!
+
+not wifi access, driver not installed?
+
+Reboot robot: adb shell reboot
+Shutdown robot: adb shell reboot -p
+adb shell reboot --poweroff
+
+
+### Change System Language to English (or anything else)
+
+
+[https://linuxconfig.org/change-system-language-on-ubuntu-20-04-from-command-line](https://linuxconfig.org/change-system-language-on-ubuntu-20-04-from-command-line)
 
 
 ### Control Robot Hardware
@@ -116,6 +136,8 @@ apktool decode my_app.apk -o my_app_apktool
 [https://wiki.ubuntuusers.de/amixer/](https://wiki.ubuntuusers.de/amixer/)
 
 [https://unix.stackexchange.com/questions/86321/how-can-i-display-the-contents-of-a-text-file-on-the-command-line](https://unix.stackexchange.com/questions/86321/how-can-i-display-the-contents-of-a-text-file-on-the-command-line)
+
+[https://pypi.org/project/pyalsaaudio/](https://pypi.org/project/pyalsaaudio/)
 
 #### Speakers
 
